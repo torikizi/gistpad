@@ -236,7 +236,7 @@ GistPad では、トピック指向のページを作成できることに加え
 
 ## コードスイング
 
-Web アプリケーションを構築していて、HTML、CSS、JavaScript（または [ Sass/SCSS、Less、Pug、TypeScript](#additional-language-support)) を試すために素早くプレイグラウンド環境を作りたい場合、VSCode に統合して、CodePen 的な Web 体験をするために [CodeSwing extension] (https://aka.ms/codeswing) をインストールすることができます。GistPad は CodeSwing との統合を提供しているので、インストールしたら、`GistPad` ツリーの `Your Gists` ノードを右クリックして、 `New CodeSwing` または `New Secret CodeSwing` を選択することができます。これにより、選択したテンプレートフィールドをシードした新しい gist が作成され、ライブプレビューの Webview が提供されるため、コードを反復して視覚的にその挙動を確認することができます。
+Web アプリケーションを構築していて、HTML、CSS、JavaScript（または [ Sass/SCSS、Less、Pug、TypeScript](#additional-language-support)) を試すために素早くプレイグラウンド環境を作りたい場合、VS Code に統合して、CodePen 的な Web 体験をするために [CodeSwing extension] (https://aka.ms/codeswing) をインストールすることができます。GistPad は CodeSwing との統合を提供しているので、インストールしたら、`GistPad` ツリーの `Your Gists` ノードを右クリックして、 `New CodeSwing` または `New Secret CodeSwing` を選択することができます。これにより、選択したテンプレートフィールドをシードした新しい gist が作成され、ライブプレビューの Webview が提供されるため、コードを反復して視覚的にその挙動を確認することができます。
 
 これは、使用する予定のライブラリや言語（ React.js や Vue.js など）を使って、素早く始めるための方法です。スイングは Gist によってバックアップされているため、あなたの変更は保存され、友人と共有することができます。さらに、使いたい他のスイングが見つかったら、それをフォークして自分のスイングを作るだけです。そうすれば、Gist をスイング環境の「テンプレート」として使うことができ、他の Gist と同じように他の人と共同作業することができます。スイングが終わったら、プレビューウィンドウを閉じるだけで、他のすべてのドキュメントが自動的に閉じられます。不要になったスイングは、他の gist と同じように削除してください👍。
 
@@ -330,4 +330,4 @@ GistPad は `Gists` ビューに加えて、`Explorer` ファイルツリーの�
 
 - `GistPad > Showcase URL` - ショーケースのエントリーを表示する際に使用する URL を指定します。これにより、チームや教室などが独自のショーケースを作成し、チーム内で共有することができます。
 
-- `GistPad > Tracing > Enable Output Channel` - 有効にすると、VSCode 起動時に出力トレースチャンネルが作成されます。
+- `GistPad > Tracing > Enable Output Channel` - 有効にすると、VS Code 起動時に出力トレースチャンネルが作成されます。
